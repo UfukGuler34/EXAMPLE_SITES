@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./imgs/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="dogs.html">DOGS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="show()"></i>
+        </nav>
+        <h1>Blogs</h1>
+    </section>
+
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./imgs/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Approvel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In incidunt voluptatum dicta similique libero reiciendis, nobis neque aut nostrum hic molestias tempore culpa, odio laudantium ullam fugiat eveniet. Itaque quibusdam, adipisci ex, veniam dolorum quis incidunt voluptas, officia culpa mollitia esse dolor rerum. Quae, molestiae mollitia non maxime a amet fugit, sint reiciendis placeat, ipsa molestias. Reiciendis dolorem voluptatem sit. Repellendus eveniet autem, aliquid vitae delectus dolorum omnis ratione quos, ab et error doloremque perspiciatis iure fugiat dolorem sed eos!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, asperiores sed totam minus animi beatae, necessitatibus fugit commodi officiis quod quas libero at quibusdam, doloribus tempore consequuntur quia molestiae possimus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium recusandae accusamus similique fugiat temporibus. Commodi, aliquam itaque nam sit provident eveniet obcaecati dignissimos magnam sunt doloremque veritatis sequi tempora aut corporis saepe, assumenda a consequuntur, perspiciatis debitis eos. Rerum, necessitatibus.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Goldens</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Terriers</span>
+                    <span>43</span>
+                </div>
+                <div>
+                    <span>Pittbulls</span>
+                    <span>52</span>
+                </div>
+                <div>
+                    <span>Rotweilers</span>
+                    <span>73</span>
+                </div>
+                <div>
+                    <span>Chivuvava</span>
+                    <span>87</span>
+                </div>
+                <div>
+                    <span>Pekinez</span>
+                    <span>94</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nam iusto culpa dolor dolorum, inventore
+            minima dignissimos <br> sed laudantium necessitatibus cum dicta illo architecto placeat iure explicabo
+            delectus error labore!</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+        </div>
+        <p>Made by UfukGuler with Easytut </p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function show() {
+            navLinks.style.right = "0";
+        }
+        function hide() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/5786b96b4a.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
